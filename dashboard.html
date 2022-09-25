@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" type="image/x-icon" href="/assets/img/favicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="Font-6.2/css/all.css">
+</head>
+
+<body style="font-family: 'Poppins', sans-serif;" class="bg-gray-300">
+
+    <div class="container mx-auto ">
+
+        <!-- Header -->
+        <div class="flex justify-between items-center bg-white px-2 md:px-16 rounded-tl-lg rounded-tr-lg">
+
+            <div class="absolute top-14 rounded-lg right-20 bg-gray-500 flex-col space-y-3 px-8 py-8 font-semibold text-grey12 text-sm md:text-md hidden" id="profile">
+                
+                <a href="./profile.html" class="hove"><div><i class="fa-solid fa-user-doctor mr-4"></i>Profile</div></a>
+                <a href="" class="hove"><div><i class="fa-solid fa-sliders mr-4"></i>Settings</div></a>
+                <a href="./password.html" class="hove"><div><i class="fa-solid fa-lock mr-4"></i>Change Password</div></a>
+                <a href="./dPassword.html" class="hove"><div><i class="fa-solid fa-lock mr-4"></i>Change Doctor's Password</div></a>
+                <a href="./signin.html" class="have"><div class=" text-red-500"><i class="fa-solid fa-arrow-right-from-bracket mr-4"></i>Log Out</div></a>
+            </div>
+
+            
+            <!-- Logo -->
+            <div>
+                <a href="./index.html"><img src="./assets/img/12Leaf.png" alt="Logo" width="83px"></a>
+            </div>
+
+
+            <div>
+                <div class="flex space-x-4 text-gray-700">
+                    <i class="fa-regular fa-user p-1 text-green12" onclick="menu()"></i>
+                    <p class="font-semibold">Mrs. Adesokan</p>
+                    <a href="#"><i class="fa-regular fa-bell pt-1 text-green12"></i></a>
+                </div>
+            </div>
+        </div>
+        <!--Header end-->
+
+        <div>
+            <!--Dashboard-->
+
+
+
+            <div class="bg-grey12 pb-14 rounded-br-lg">
+                <!-- Mainbar -->
+
+                <div class="w-11/12 mx-auto">
+
+                    <div class="flex justify-between pt-8">
+                        <div class="flex flex-col text-gray-500">
+                            <h2>Welcome, Mrs. Adesokan</h2>
+                            <p class="font-bold mt-3 text-lg md:text-xl text-green12">Summary</p>
+                        </div>
+
+                        <div class="text-gray-500 flex">
+                            <i class="fa-solid fa-calendar mr-4 mt-1 text-green12"></i>
+                            <p>Last Seen: 10 September, <br> 2022</p>
+                        </div>
+                    </div>
+
+                    <div class="mt-6 md:space-x-4 md:space-y-0 space-y-8 flex flex-col md:flex-row justify-around  text-gray-500">
+
+                        <div class="md:w-1/3 ">
+                            <div
+                                class="bg-white h-16 rounded-lg mx-auto py-12 flex justify-around md:space-x-6 items-center ">
+                                <div class="flex justify-evenly items-center space-x-16 pt-2">
+                                    <div class="ney p-3 block">
+                                        <p>20</p>
+                                    </div>
+                                    <h3 class="font-bold">Registered <br> Users</h3>
+
+
+                                </div>
+                            </div>
+                            <!--End-->
+
+                            <div class="bg-white mt-4 rounded-lg p-8">
+                                <h3 class="mb-6 font-bold">Registered Users</h3>
+
+                                <div class="space-y-4">
+                                    <div class="flex text-green12 justify-between font-bold">
+                                        <h4>Full Name</h4>
+                                        <h4>Patient Id</h4>
+                                    </div>
+
+                                    <div class="flex  justify-between font-extralight">
+                                        <h4>A ade</h4>
+                                        <h4>FD0477</h4>
+                                    </div>
+
+                                    <div class="flex  justify-between font-extralight">
+                                        <h4>B Ade</h4>
+                                        <h4>CA0222</h4>
+                                    </div>
+
+                                    <div class="flex 12 justify-between font-extralight">
+                                        <h4>C Ade</h4>
+                                        <h4>TA02231</h4>
+                                    </div>
+
+                                    <div class="flex 12 justify-between font-extralight">
+                                        <h4>C Ade</h4>
+                                        <h4>TA01442</h4>
+                                    </div>
+
+                                    <div class="flex 12 justify-between font-extralight">
+                                        <h4>C Ade</h4>
+                                        <h4>TA0554</h4>
+                                    </div>
+
+                                    <div class="flex justify-center pt-5">
+                                        <a href="" class="flex items-center space-x-4 have">
+                                            <h4>Load More</h4>
+                                            <i class="fa-solid fa-arrow-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="md:w-1/3 ">
+                            <div
+                                class="bg-white h-16 rounded-lg mx-auto py-12 flex justify-around md:space-x-6 items-center">
+                                <div class="flex justify-evenly items-center pt-2 space-x-16">
+                                    <div class="ney p-3 block">
+                                        <p>20</p>
+                                    </div>
+                                    <h3 class="font-bold">Herbs <br> Submitted</h3>
+                                </div>
+
+                            </div>
+
+                            <div class="bg-white mt-4 rounded-lg p-8">
+                                <h3 class="mb-6 font-bold">Herbs Submitted</h3>
+                                <div class="space-y-4">
+                                    <div class="flex space-x-3 bg-grey12 rounded-full items-center hove">
+                                        <div>
+                                            <img src="./assets/img/her.png" alt="" class="img items-center">
+                                        </div>
+                                        <div>
+                                            <h5 class="text-green12 font-bold">Ewuro - Igbo</h5>
+                                            <p class="text-xs pt-1">3rd May, 2022</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="flex space-x-3 bg-grey12 rounded-full items-center hove">
+                                        <div>
+                                            <img src="./assets/img/her.png" alt="" class="img items-center">
+                                        </div>
+                                        <div>
+                                            <h5 class="text-green12 font-bold">Abere</h5>
+                                            <p class="text-xs pt-1">2nd May, 2022</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="flex space-x-3 bg-grey12 rounded-full items-center hove">
+                                        <div class="items-center">
+                                            <img src="./assets/img/her.png" alt="" class="img">
+                                        </div>
+                                        <div>
+                                            <h5 class="text-green12 font-bold">Ewuro - Igbo</h5>
+                                            <p class="text-xs pt-1">1st May, 2022</p>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="flex justify-center pt-5">
+                                        <a href="" class="flex items-center space-x-4 have">
+                                            <h4>Load More</h4>
+                                            <i class="fa-solid fa-arrow-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="md:w-1/3">
+                            <div
+                                class="bg-white h-16 rounded-lg mx-auto py-12 flex justify-around space-x-6 items-center">
+                                <div class="flex justify-evenly items-center pt-2 space-x-16">
+                                    <div class="ney p-3 block">
+                                        <p>22</p>
+                                    </div>
+                                    <h3 class="font-bold">Doctors</h3>
+                                </div>
+                            </div>
+
+                            <div class="bg-white mt-4 rounded-lg p-8 min-h-24">
+                                <h3 class="mb-6 font-bold">Doctors</h3>
+
+                                <div class="space-y-4">
+                                    <div class="flex space-x-6 items-center hove">
+                                        <a href="" class="flex space-x-6">
+                                            <div>
+                                                <i class="fa-regular fa-user p-1"></i>
+                                            </div>
+
+                                            <div>
+                                                <h5 class="font-bold text-green12">Dr. Adesanya</h5>
+                                                <p class="font-light text-xs">Consultant</p>
+                                            </div>
+                                        </a>
+                                    </div>
+
+
+                                    <div class="flex space-x-6 items-center hove">
+                                        <a href="" class="flex space-x-6">
+                                            <div>
+                                                <i class="fa-regular fa-user p-1"></i>
+                                            </div>
+
+                                            <div>
+                                                <h5 class="font-bold text-green12">Dr. Bisola</h5>
+                                                <p class="font-light text-xs">Consultant</p>
+                                            </div>
+                                        </a>
+                                    </div>
+
+                                    <div class="flex justify-center pt-5">
+                                        <a href="" class="flex items-center space-x-4 have">
+                                            <h4>Load More</h4>
+                                            <i class="fa-solid fa-arrow-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
