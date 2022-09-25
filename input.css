@@ -90,11 +90,11 @@ input:focus {
     transform: translate(-50%, 0%);
 }
 
-.background {
+/* .background {
     background: url(/assets/img/bg-1.jpg);
-    /* background-position: center; */
+    background-position: center;
     background-size: cover;
-}
+} */
 
 .profile {
     display: flex;
